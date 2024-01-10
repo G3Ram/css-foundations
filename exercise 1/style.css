@@ -34,3 +34,8 @@ html {
 }
 
 /* using the above variables and the HTML specified above, write CSS to style headings, text, links, images, figures, etc. */
+
+body {
+  font-family: var(--sans);
+  background-color: var(--vanilla);
+}

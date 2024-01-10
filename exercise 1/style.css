@@ -83,4 +83,54 @@ h3,
 
 .colors {
   display: flex;
+  gap: var(--h6);
+}
+
+.colors > div {
+  width: 5rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.white {
+  background: var(--white);
+  color: var(--coffee);
+}
+
+.green {
+  background: var(--green);
+  color: var(--vanilla);
+}
+
+.coffee {
+  background: var(--coffee);
+  color: var(--vanilla);
+}
+
+.vanilla {
+  border: 1px solid var(--coffee);
+}
+
+.lemon {
+  background: var(--lemon);
+  color: var(--coffee);
+}
+
+.mocha {
+  background: var(--mocha);
+  color: var(--vanilla);
+}
+
+.tan {
+  background: var(--tan);
+  color: var(--coffee);
+}
+
+.blue {
+  background: var(--blue);
+  color: var(--vanilla);
 }

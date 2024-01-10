@@ -38,4 +38,8 @@ html {
 body {
   font-family: var(--sans);
   background-color: var(--vanilla);
+  line-height: 1.5;
+  color: var(--coffee);
+  margin: 0;
+  padding: 0;
 }

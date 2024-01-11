@@ -115,6 +115,7 @@ a:hover {
 
 header {
   background: var(--coffee);
+  padding: 1rem 0px;
 }
 
 header h1 {

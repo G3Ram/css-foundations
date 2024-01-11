@@ -116,6 +116,7 @@ a:hover {
 header {
   background: var(--coffee);
   padding: 1rem 0px;
+  border-bottom: 20px double var(--tan);
 }
 
 header h1 {
@@ -159,4 +160,11 @@ header h1 {
 .blue {
   background: var(--blue);
   color: var(--vanilla);
+}
+
+.fancy-text {
+  background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-position: 0% 90%;
 }

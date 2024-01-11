@@ -96,6 +96,15 @@ h3,
   margin: 2rem 0;
 }
 
+img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+
+figure {
+  border: 1px solid black;
+}
+
 .white {
   background: var(--white);
   color: var(--coffee);

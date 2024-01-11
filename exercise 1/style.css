@@ -113,6 +113,14 @@ a:hover {
   text-decoration: none;
 }
 
+header {
+  background: var(--coffee);
+}
+
+header h1 {
+  color: var(--vanilla);
+}
+
 .white {
   background: var(--white);
   color: var(--coffee);

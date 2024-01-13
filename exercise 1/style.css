@@ -81,16 +81,14 @@ h3,
   font-size: var(--h3);
 }
 
-.colors {
-  display: flex;
-  gap: var(--h6);
-}
-
 .colors > div {
   width: 5rem;
   height: 4rem;
   display: inline-block;
-  margin: 2rem 0;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 1rem;
+  border: 1px solid red;
 }
 
 img {
